@@ -1,0 +1,35 @@
+
+.header {
+    background-color: #006600;
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header>.nav{
+    width: 70%;
+    height: 50%;
+}
+
+.header>.nav > .nav-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.header>.nav > .nav-container > .nav-links{
+    list-style: none;
+}
+
+.header>.nav > .nav-container > .nav-links >a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.header>.nav > .nav-container > .nav-links >a:hover
+
+{
+    color: orange;
+}
